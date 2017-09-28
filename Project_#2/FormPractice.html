@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <h1>Log In</h1>
+
+      <!-- There are two ways to format a form section: first is to let the input tags be embedded into the label tag. However, they could be an issue later on when users with disabilties use html reading software and the tags used do not have any meaning -->
+
+      <!-- action - where the form send data to  -->
+      <!-- method - what HTTP method (get/post) -->
+  <!-- <form>
+    <label for="username">Username:
+      <input type="text" name="username" placeholder="Username"></label>
+
+    <label for="password">Password:
+      <input type="password" name="password" placeholder="Password"></label>
+    <input type="Submit">
+  </form> -->
+
+    <!-- The other way of formatting is to have the label and input tags be seperate from each other. -->
+    
+  <form action="http://ww.wikipedia.org" method="get">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Username">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" value="" placeholder="Email" required>
+
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+
+    <input type="Submit">
+  </form>
+
+  </body>
+</html>

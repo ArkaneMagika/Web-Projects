@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+
+      <div>
+      <label for="first-name">First Name: </label>
+      <input id="first-name" type="text" name="first-name" placeholder="John" required>
+
+      <label for="last-name">Last Name: </label>
+      <input id="last-name" type="text" name="last-name" placeholder="Smith" required>
+    </div>
+
+    <div>
+      <label for="choice-1">Male</label>
+      <input id="choice-1" type="radio" name="male" value="selected">
+
+      <label for="choice-2">Female</label>
+      <input id="choice-2" type="radio" name="female" value="selected">
+
+      <label for="choice-3">Other</label>
+      <input id="choice-3" type="radio" name="other" value="selected">
+    </div>
+
+    <div>
+      <label for="email">Email: </label>
+      <input id="email" name="email" type="email" placeholder="your email" required>
+
+      <label for="password">Password: </label>
+      <input id="password" name="password" type="password" placeholder="your password" maxlength="10" minlength="5" required>
+
+  </div>
+
+  <div>
+      <label>Birthday</label>
+      <select id="month" name="month">
+        <option name="month" value="">Month</option>
+        <option>January</option>
+        <option>June</option>
+        <option>July</option>
+      </select>
+
+      <select id="day" name="day">
+        <option name="day" value="">Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+
+      <select id="year" name="year">
+        <option>Year</option>
+        <option>1111</option>
+        <option>2222</option>
+        <option>3333</option>
+        <option>4444</option>
+        <option>5555</option>
+      </select>
+  </div>
+
+    <div>
+      <label for="agreement">I agree to the terms and conditions </label>
+      <input id="agreement"type="checkbox" name="agreement" value="yes">
+    </div>
+
+    <input type="Submit">
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+h1{
+  color: #FF8000;
+  /*A border in CSS has three parts: width, color and style*/
+    /*border-color: purple;
+    border-width: 5px;
+    border-style: solid;*/
+  /*Or the single border property can compose all three:*/
+  border: 8px dashed rgb(100, 0, 120);
+}
+
+h2{
+  color: rgb(240, 0, 100);
+  background: rgb(255, 100, 80);
+}
+
+h3{
+  color: rgba(11, 99, 150, 1);
+}
+
+h4{
+  color: rgba(11, 99, 150, 0.6);
+}
+
+h5{
+  color: rgba(11, 99, 150, 0.2);
+}
+
+body{
+  /*background: url("http://images.woodmagazine.mdpcdn.com/sites/default/files/styles/scale_1500_1500/public/image/2016/11/30/WD318111.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background: pink;
+}

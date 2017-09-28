@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>More Buttons</title>
+  </head>
+  <body>
+<!-- Radio button -->
+<!-- Select tag -->
+<!-- textarea tag -->
+<form>
+  <label for="dogs">Dogs</label>
+  <input type="radio" id="dogs" name="petChoice" value="DOGS">
+
+  <label for="cats">Cats</label>
+  <input type="radio" id="cats" name="petChoice" value="CATS">
+
+<!-- With the select tag you can have several options that can be used as the value instead of declaring the value attribute -->
+  <p>What's your <strong>favorite</strong> color?</p>
+  <select name="fav-color">
+    <option>Red</option>
+    <option>Orange</option>
+    <option>Yellow</option>
+  </select>
+
+<!-- Additionally, you can still place the value attribute into the option tag if your answers are not easily readable -->
+  <p>What's your <em>current</em> mood?</p>
+  <select name="mood">
+    <option value="Happy">:)</option>
+    <option value="Sad">:(</option>
+    <option value="Irritated">:/</option>
+  </select>
+
+  <textarea name="paragraph" rows="10" cols="20"></textarea>
+  <button>Go!</button>
+</form>
+
+    <!-- <input type="checkbox" name="" value=""> -->
+  </body>
+</html>

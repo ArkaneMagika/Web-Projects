@@ -1,0 +1,14 @@
+/*WHen referring to a tag we can use the tag as the selector in CSS*/
+li{
+  border: 2px solid red;
+}
+
+/*When we need to change a specific part of the HTML document we can use the id attribute and change only it's properties*/
+#special{
+  background-color: yellow;
+}
+
+/*If we need to change the look of a group of tags we can use the class attribute to select all tags within the same class*/
+.completed{
+  text-decoration: line-through;
+}
